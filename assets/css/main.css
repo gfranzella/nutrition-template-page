@@ -205,6 +205,12 @@ input, select, textarea {
 				width: calc(100% - 80px);
 			}
 
+			#banner header p {
+				color: #fff !important;
+				padding: 1em 2em !important;
+				font-size: 1.5em !important;
+			}
+
 		}
 
 		@media screen and (max-width: 736px) {
@@ -2714,6 +2720,14 @@ input, select, textarea {
 /* Small */
 
 	@media screen and (max-width: 736px) {
+
+		#banner header p {
+			color: #fff;
+			padding: 0 0 10px 0;
+			font-style: normal;
+			margin: 0;
+			font-size: 1.5em;
+		}
 
 		/* Basic */
 
